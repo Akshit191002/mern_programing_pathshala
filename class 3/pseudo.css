@@ -1,0 +1,59 @@
+/* button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 8px 16px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: yellow;
+    border: none;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1000ms;
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    scale: 2;
+} */
+/* animation */
+button{
+    scale: 2;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    animation-name: button-animation-type-1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* @keyframes button-animation-type-1{
+    from{
+        top: 40px;
+        left: 40px;
+    }
+    to{
+        top: 40px;
+        left: 500px;
+    }
+} */
+@keyframes button-animation-type-1{
+    0%{
+        top: 40px;
+        left: 40px;
+    }
+    30%{
+        top: 40px;
+        left: 500px;
+    }
+    50%
+    {
+        top: 500px;
+        left: 40px;
+    }
+    100%{
+        top: 500px;
+        left: 500px;
+    }
+}

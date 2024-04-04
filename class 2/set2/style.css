@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html{
+    font-size: 20px;
+}
+.parent {
+    font-size: 10px;
+}
+.child{
+    font-size: 2em;
+    background-color: aqua;
+    width: 10rem;
+} */
+/* .btn{
+    display: block;
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+    margin: 10px auto;
+    font-size: 16px;
+    width: 10em;
+}
+.btn1{
+   font-size: 10px;
+} */
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 10px 32px;
+}
+/* .parent{
+    ol{
+        background-color: aqua;
+    }
+    ul:first-child{
+        background-color: red;
+    }
+    ul:last-child{
+        background-color: green;
+        li:nth-child(2){
+            background-color: yellow;
+        }
+    }
+} */
+/* ul{
+    li:nth-of-type(2){
+        background-color: aqua;
+    }
+} */
+/* .parent ul{
+    background-color: yellow;
+}
+.parent>ul{
+    background-color: aqua;
+} */
+.parent+ul{
+    background-color: blue;
+}

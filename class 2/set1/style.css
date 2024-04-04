@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: =border(l&r)+content+padding; */
+
+}
+/* .parent{
+    p{
+        background-color: red;
+        padding: 4px;
+    }
+    span{
+        padding: 4px;
+        width: 250px;
+        background-color: aqua;
+    }
+} */
+/* .parent{
+    background-color: aqua;
+    margin: 0px 20px 16px;
+    margin: 10px; all
+    margin: 100px 10px; top & bottom
+    margin: 100px 10px; top & bottom left
+    margin: 100px 10px; top & bottom left rigt
+    padding: 16px;
+    border: 1px black solid;
+    width: 120px;
+    box-sizing: border-box;
+} */
+/* .heading{
+
+
+    margin: 16px 20px 0px;
+    border: 1px black solid;
+} */
+/* 
+width: 200px;
+background-color: aqua;
+text-align: center;
+margin: 0 0 0 auto;
+} */
+/* div{
+    align-items: center;
+}
+img{
+    
+    width: 500px;
+} */

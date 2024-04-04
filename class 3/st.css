@@ -1,0 +1,32 @@
+.parent{
+    display: grid;
+    background-color: greenyellow;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+    grid-auto-rows: 80px;
+    padding: 10px;
+}
+.first{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.second{
+    background-color:brown;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.third
+{
+    background-color: red;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.fourth{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

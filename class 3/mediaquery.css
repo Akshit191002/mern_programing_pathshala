@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    transition-property: width,height;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    background-color: blue;
+    color: white;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    h1{
+        background-color: black;
+        height: 75px;
+    }
+}
+@media (800px <= width){
+    .parent{
+        background-color: red;
+    }
+    h1{
+        background-color: red;
+    }
+    
+}
