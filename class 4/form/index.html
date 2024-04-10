@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form onsubmit="submitform(event)">
+            <label for="fname">Enter you first name</label>
+            <input id="fname" type="text" name="firstname" placeholder="first name" /><br><br>
+            <label for="lname">Enter you last name</label>
+            <input id="lname" type="text" name="lastname" placeholder="lastname"/><br><br>
+            <label for="age">Enter you age</label>
+            <input id="age" type="number" name="age" placeholder="age"/><br><br>
+            <label for="">Hobbies</label><br>
+            <input type="checkbox" name="hobbies" value="webD" />
+            <label for="">Web dev</label>
+            <input type="checkbox"  name="hobbies" value="sport"/>
+            <label for="">Sports</label>
+            <input type="checkbox"  name="hobbies" value="drawing"/>
+            <label for="">Drawing</label>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
